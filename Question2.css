@@ -1,0 +1,24 @@
+body {
+    color: purple;
+}
+body h1 {
+    background-color:  blue;
+    color: white;
+}
+@media screen and (max-width:990px) and (min-width: 780px) {body {
+    color: orangered;
+}
+body h1 {
+    background-color:  pink;
+    color: white;
+}
+}
+
+@media screen and (max-width:699px) {body {
+    color: blue;
+}
+body h1 {
+    background-color:  green;
+    color: white;
+}
+}
